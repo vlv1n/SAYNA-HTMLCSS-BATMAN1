@@ -1,8 +1,7 @@
 nav {
-    background-color: black;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     height: 80px;
     margin: 0 auto;
     padding: 20px;  
@@ -20,7 +19,6 @@ nav {
   }
 
   .background{
-    background-color: black;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,12 +29,16 @@ nav {
  text-align: center;
  width: 80%;
  margin: auto;
- margin-top: 100px;
+ margin-top: 200px;
  flex-direction: column;
 }
 .btn {
   display: inline-block;
-  background: linear-gradient(45deg, #f3ec78, #af4261);
+  background: linear-gradient(to right,
+  #EDDEBF 40%,
+   #19587D 40%,
+   #EDDEBF 40%,
+   #890008 60%);
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -47,7 +49,55 @@ nav {
 }
 
 .btn:hover {
-  background-color: darkblue;
+  background-color:rgb(204, 204, 239);
 }
-  
-  
+body{
+  background-image: url('/Assets/Illustrations/Bathome1.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: 'Rajdhani';
+  font-weight: 500;
+}
+.fleche{
+  margin-top: 400px;
+  position: relative;
+}
+ .batman-personnage{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #19587D;
+ } 
+ .paragraph{
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 200px;
+ }
+ .footer-flex{
+  display: flex;
+  background-color: #890008;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+guillemen
+.logo1{
+  height: 40px;
+}
+.logo2{
+  height: 15px;
+}
+
+
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+ 
+ 
